@@ -81,14 +81,19 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.img
-  width: 400px
-  height: 400px
-  @media(max-width:767px)
-    width: 250px
-    height: 250px
+.card
+  width: 600px
+  height: 600px
 
-.nice-muscle
-  font-weight: 600
-  color: #262626
-</style>
+  .img
+    text-align: center;
+    width: 450px
+    height: 400px
+    @media(max-width:767px)
+      width: 300px
+      height: 250px
+
+  .nice-muscle
+    font-weight: 600
+    color: #262626
+  </style>
